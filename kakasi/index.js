@@ -1,9 +1,8 @@
 /**
- * Musixmatch Intelligence SDK
- * @author Loreto Parisi (loreto at musixmatch dot com)
- * @2017 Musixmatch Spa.
+* Kakasi.js Japanese Transliteration
+* @author Loreto Parisi (loreto at gmail dot com)
+* @2017 Loreto Parisi
 */
-
 (function () {
 
     var fs = require('fs'),
