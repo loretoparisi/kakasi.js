@@ -51,8 +51,8 @@
                 process.chdir(root);
                 var binpath = resolve('./bin/' + process.platform + '/' + filename);
 
-                process.env.KANWADICTPATH = resolve('./data/itaijidict');
-                process.env.ITAIJIDICTPATH = resolve('./data/kanwadict');
+                process.env.ITAIJIDICTPATH = resolve('./data/itaijidict');
+                process.env.KANWADICTPATH = resolve('./data/kanwadict');
 
                 process.chdir(cdir);
 
