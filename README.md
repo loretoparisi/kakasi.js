@@ -1,16 +1,14 @@
 # kakasi.js
 Kakasi Japanese Transliteration for Node.js
 
-## Usage
+## How to install
 ```bash
-git clone https://github.com/loretoparisi/kakasi.js.git
-cd kakasi.js/examples
-node transliterate.js 
-deakubibakkashiteita 
+git clone https://github.com/loretoparisi/kakasi.js.git 
 ```
 
 ## How to use kakasi.js
 ### Transliterate
+To transliterate a sentence use the `transliterate` api.
 ```javascript
 var kk = new Kakasi({
     debug: false
